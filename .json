@@ -10,7 +10,7 @@
   },
   "self_referencing_column_name": null,
   "table_catalog": "postgres",
-  "table_name": "ClickUpSpaces",
+  "table_name": "Department",
   "table_schema": "public",
   "table_type": "BASE TABLE",
   "user_defined_type_catalog": null,
