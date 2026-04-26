@@ -1,21 +1,20 @@
 ﻿id,created_at,name,email,phone_number,ClickUpID
 201,2026-03-25T22:09:59.332Z, Dilane Ngoya,dilanengoya@gmail.com,,
-227,2026-04-02T18:50:26.465Z,Hamid,hamid21jamil@gmail.com,,
 228,2026-04-02T18:50:57.581Z,Christophe ,christophesalame06@gmail.com,,
-229,2026-04-07T16:05:15.596Z,Lydia,lydia.hammadou@etud.polymtl.ca,,
-230,2026-04-07T16:05:55.954Z,Marianne,marianne.bedard-brosseau@etud.polymtl.ca,,
-231,2026-04-07T16:08:03.334Z,Luc Moulot,lucmoulot2@gmail.com,,
-232,2026-04-07T16:09:27.671Z,Antoine,antoine.khuri@etud.polymtl.ca,,
-9,2025-08-29T16:21:17.684Z,Souhayl Sejjari,souhaylsej@gmail.com,,150181728
-19,2025-08-31T18:41:10.349Z,John Doe,bleppleblep@gmail.com,,105997505
+30,2025-08-31T18:41:12.693Z,Renaz,lilyrenaz3@gmail.com,,118045629
+232,2026-04-07T16:09:27.671Z,Antoine,antoine.khuri@etud.polymtl.ca,,118045628
+227,2026-04-02T18:50:26.465Z,Hamid,hamid21jamil@gmail.com,,118045627
+378,2026-04-25T16:36:14.980Z,,maxime.hamrioui@gmail.com,,118045626
+231,2026-04-07T16:08:03.334Z,Luc Moulot,lucmoulot2@gmail.com,,118045625
+229,2026-04-07T16:05:15.596Z,Lydia,lydia.hammadou@etud.polymtl.ca,,118045624
 202,2026-04-02T14:18:38.744Z,Simon Gonzalez,simon.gonzalez.business@gmail.com,,118013703
 234,2026-04-07T18:06:11.894Z,,djadir.yasmine012@gmail.com,,162200346
 149,2025-09-14T21:41:42.539Z,Operations PolyAI,operationspolyai@gmail.com,,162190897
-30,2025-08-31T18:41:12.693Z,Renaz,lilyrenaz3@gmail.com,,
 12,2025-08-31T18:39:24.790Z,Rayan Stambouli,stamrayan@gmail.com,,162094085
 237,2026-04-07T18:06:12.038Z,,dana3102003@gmail.com,,224633170
 238,2026-04-07T18:06:12.081Z,,rebeccaabc16@gmail.com,,105998584
 18,2025-08-31T18:41:10.136Z,albert,cissealbert.d@icloud.com,,105998583
+19,2025-08-31T18:41:10.349Z,John Doe,bleppleblep@gmail.com,,105997505
 241,2026-04-07T18:06:12.215Z,,firas.argoubi@outlook.com,,156224494
 242,2026-04-07T18:06:12.258Z,,mhammamouche27@gmail.com,,212578198
 243,2026-04-07T18:06:12.300Z,,ouldmayanis@gmail.com,,156006761
@@ -29,3 +28,5 @@
 305,2026-04-07T18:13:37.043Z,,csmelina4@gmail.com,,150251454
 6,2025-08-29T16:09:37.446Z,aziz,mouhazize2000@gmail.com,,81412585
 307,2026-04-07T18:13:37.144Z,,ryad.bellit@gmail.com,,150224074
+9,2025-08-29T16:21:17.684Z,Souhayl Sejjari,souhaylsej@gmail.com,,150181728
+230,2026-04-07T16:05:55.954Z,Marianne,mariannebedardb@gmail.com,,118045623
