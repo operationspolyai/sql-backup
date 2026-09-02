@@ -1,0 +1,2 @@
+﻿id,event_id,user_id,role_id,short_code,qr_code,checked_in,meals_remaining,created_at
+1,1,1,1,abc12,,FALSE,2,2026-09-02T01:09:02.668Z
