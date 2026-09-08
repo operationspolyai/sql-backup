@@ -1,0 +1,7 @@
+﻿id,registration_id,scan_type,scanned_at,scanned_by_role
+76,102,entry,2026-09-08T01:09:30.531Z,staff
+77,102,entry,2026-09-08T01:10:20.843Z,staff
+78,102,snack,2026-09-08T01:10:46.604Z,staff
+79,102,snack,2026-09-08T01:10:52.509Z,staff
+80,102,lunch,2026-09-08T01:12:33.088Z,staff
+81,102,lunch,2026-09-08T01:12:36.354Z,staff
