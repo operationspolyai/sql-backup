@@ -1,2 +1,111 @@
-﻿id,name,date,volunteer_code,staff_code,created_at,allowed_meals,description,location
-1,CodeML 2026,2026-09-02T17:17:11.000Z,v4532,s2643,2026-09-02T01:09:02.029Z,2,,
+﻿id,name,date,volunteer_code,staff_code,created_at,allowed_meals,description,location,discord_invite_link,email_batch_sent,email_whitelist_enabled,email_sending_enabled,email_template_html
+1,CodeML 2026,2026-10-03T04:00:00.000Z,v4532,s2643,2026-09-02T01:09:02.029Z,2,,,discord sample,TRUE,FALSE,FALSE,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+  <meta charset=""utf-8"">
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+  <title>You're Invited!</title>
+  <style>
+    /* Reset styles for email clients */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+    
+    /* Responsive styling */
+    @media screen and (max-width: 600px) {
+      .container {
+        width: 100% !important;
+        padding: 15px !important;
+      }
+      .content-box {
+        padding: 20px !important;
+      }
+    }
+  </style>
+</head>
+<body style=""margin: 0; padding: 0; background-color: #f4f6f9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; -webkit-font-smoothing: antialiased;"">
+
+  <!-- Outer wrapper table -->
+  <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""background-color: #f4f6f9;"">
+    <tr>
+      <td align=""center"" style=""padding: 40px 10px;"">
+        
+        <!-- Main content container -->
+        <table class=""container"" border=""0"" cellpadding=""0"" cellspacing=""0"" width=""600"" style=""background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); overflow: hidden;"">
+          
+          <!-- Header Image/Banner (Optional - replace src with a real image URL if desired) -->
+          <tr>
+            <td align=""center"" style=""background-color: #1a68d6; padding: 40px 20px;"">
+              <h1 style=""color: #ffffff; margin: 0; font-size: 28px; letter-spacing: -0.5px;"">You're Invited!</h1>
+            </td>
+          </tr>
+
+          <!-- Body content -->
+          <tr>
+            <td class=""content-box"" style=""padding: 40px 40px 30px 40px; color: #141c26;"">
+              <p style=""margin: 0 0 20px 0; font-size: 16px; line-height: 1.6;"">
+                Hi {first_name},
+              </p>
+              
+              <p style=""margin: 0 0 24px 0; font-size: 16px; line-height: 1.6;"">
+                We are excited to invite you to <strong>{event_name}</strong>! 
+              </p>
+
+              <!-- Event Details Block -->
+              <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""background-color: #f8f9fb; border: 1px solid #d8dee7; border-radius: 8px; margin-bottom: 24px;"">
+                <tr>
+                  <td style=""padding: 20px;"">
+                    <p style=""margin: 0 0 10px 0; font-size: 15px; line-height: 1.5;"">
+                      <strong>🗓️ Date:</strong><br>
+                      {event_date}
+                    </p>
+                    <p style=""margin: 0; font-size: 15px; line-height: 1.5;"">
+                      <strong>📍 Location:</strong><br>
+                      {event_location}
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Description -->
+              <p style=""margin: 0 0 30px 0; font-size: 16px; line-height: 1.6;"">
+                {event_description}
+              </p>
+
+              <!-- Call to Action Button -->
+              <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"">
+                <tr>
+                  <td align=""center"">
+                    <table border=""0"" cellpadding=""0"" cellspacing=""0"">
+                      <tr>
+                        <td align=""center"" bgcolor=""#5865F2"" style=""border-radius: 8px;"">
+                          <a href=""{discord_invite_link}"" target=""_blank"" style=""display: inline-block; padding: 14px 28px; font-family: inherit; font-size: 16px; color: #ffffff; text-decoration: none; font-weight: 600; border-radius: 8px;"">
+                            Join the Event Discord
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style=""padding: 20px 40px 30px 40px; border-top: 1px solid #eef1f5; text-align: center;"">
+              <p style=""margin: 0; font-size: 13px; color: #5b6a7b; line-height: 1.5;"">
+                If you have any questions, feel free to reach out to the organizing team.<br>
+                We can't wait to see you there!
+              </p>
+            </td>
+          </tr>
+          
+        </table>
+        
+      </td>
+    </tr>
+  </table>
+</body>
+</html>"
