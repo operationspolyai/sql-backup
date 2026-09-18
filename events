@@ -1,86 +1,121 @@
 ﻿id,name,date,volunteer_code,staff_code,created_at,allowed_meals,description,location,discord_invite_link,email_batch_sent,email_whitelist_enabled,email_sending_enabled,email_template_html
-1,CodeML 2026,2026-10-03T04:00:00.000Z,v4532,s2643,2026-09-02T01:09:02.029Z,2,,,discord sample,TRUE,FALSE,FALSE,"<!DOCTYPE html>
+1,CodeML 2026,2026-10-03T04:00:00.000Z,v4532,s2643,2026-09-02T01:09:02.029Z,2,,,discord sample,FALSE,FALSE,FALSE,"<!DOCTYPE html>
 <html lang=""en"">
 <head>
   <meta charset=""utf-8"">
   <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
   <title>You're Invited!</title>
   <style>
-    /* Reset styles for email clients */
     body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
     table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
     img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
-    
-    /* Responsive styling */
+
     @media screen and (max-width: 600px) {
       .container {
         width: 100% !important;
-        padding: 15px !important;
       }
       .content-box {
-        padding: 20px !important;
+        padding: 30px 20px !important;
+      }
+      .header-cell {
+        padding: 40px 20px 30px 20px !important;
+      }
+      .detail-card {
+        padding: 16px !important;
       }
     }
   </style>
 </head>
-<body style=""margin: 0; padding: 0; background-color: #f4f6f9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; -webkit-font-smoothing: antialiased;"">
+<body style=""margin: 0; padding: 0; background-color: #0b0f19; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased;"">
 
   <!-- Outer wrapper table -->
-  <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""background-color: #f4f6f9;"">
+  <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""background-color: #0b0f19; background-image: radial-gradient(circle at 50% 0%, #1c1c38 0%, #0b0f19 100%);"">
     <tr>
-      <td align=""center"" style=""padding: 40px 10px;"">
-        
-        <!-- Main content container -->
-        <table class=""container"" border=""0"" cellpadding=""0"" cellspacing=""0"" width=""600"" style=""background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); overflow: hidden;"">
+      <td align=""center"" style=""padding: 48px 12px;"">
+
+        <!-- Main Card Container -->
+        <table class=""container"" border=""0"" cellpadding=""0"" cellspacing=""0"" width=""600"" style=""background-color: #121826; border: 1px solid #262e45; border-radius: 20px; box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.7); overflow: hidden;"">
           
-          <!-- Header Image/Banner (Optional - replace src with a real image URL if desired) -->
+          <!-- Gradient Glow Accent Bar -->
           <tr>
-            <td align=""center"" style=""background-color: #1a68d6; padding: 40px 20px;"">
-              <h1 style=""color: #ffffff; margin: 0; font-size: 28px; letter-spacing: -0.5px;"">You're Invited!</h1>
+            <td height=""5"" style=""background: linear-gradient(90deg, #ec4899, #8b5cf6, #3b82f6); font-size: 0; line-height: 0;"">&nbsp;</td>
+          </tr>
+
+          <!-- Header Section -->
+          <tr>
+            <td class=""header-cell"" align=""center"" style=""padding: 48px 30px 20px 30px; background: linear-gradient(180deg, rgba(30, 27, 75, 0.45) 0%, rgba(18, 24, 38, 0) 100%);"">
+              <span style=""display: inline-block; padding: 6px 14px; background: rgba(139, 92, 246, 0.15); border: 1px solid rgba(139, 92, 246, 0.4); border-radius: 9999px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #c4b5fd; margin-bottom: 16px;"">
+                ✦ Exclusive Access
+              </span>
+              <h1 style=""color: #ffffff; margin: 12px 0 6px 0; font-size: 32px; font-weight: 800; letter-spacing: -0.8px; line-height: 1.2;"">
+                You're Invited!
+              </h1>
+              <p style=""margin: 0; color: #94a3b8; font-size: 15px; font-weight: 400;"">
+                Get ready for an extraordinary experience
+              </p>
             </td>
           </tr>
 
           <!-- Body content -->
           <tr>
-            <td class=""content-box"" style=""padding: 40px 40px 30px 40px; color: #141c26;"">
-              <p style=""margin: 0 0 20px 0; font-size: 16px; line-height: 1.6;"">
-                Hi {first_name},
+            <td class=""content-box"" style=""padding: 24px 44px 36px 44px; color: #f1f5f9;"">
+              
+              <p style=""margin: 0 0 16px 0; font-size: 17px; line-height: 1.6; color: #f8fafc;"">
+                Hi <span style=""color: #a78bfa; font-weight: 600;"">{first_name}</span>,
               </p>
               
-              <p style=""margin: 0 0 24px 0; font-size: 16px; line-height: 1.6;"">
-                We are excited to invite you to <strong>{event_name}</strong>! 
+              <p style=""margin: 0 0 28px 0; font-size: 16px; line-height: 1.6; color: #cbd5e1;"">
+                We are thrilled to welcome you to <strong style=""color: #ffffff; background: linear-gradient(90deg, #f472b6, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"">{event_name}</strong>. Clear your schedule and get ready!
               </p>
 
-              <!-- Event Details Block -->
-              <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""background-color: #f8f9fb; border: 1px solid #d8dee7; border-radius: 8px; margin-bottom: 24px;"">
+              <!-- Event Details Card -->
+              <table class=""detail-card"" border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""background-color: #171e2e; border: 1px solid #2d3748; border-radius: 14px; margin-bottom: 28px;"">
                 <tr>
-                  <td style=""padding: 20px;"">
-                    <p style=""margin: 0 0 10px 0; font-size: 15px; line-height: 1.5;"">
-                      <strong>🗓️ Date:</strong><br>
-                      {event_date}
-                    </p>
-                    <p style=""margin: 0; font-size: 15px; line-height: 1.5;"">
-                      <strong>📍 Location:</strong><br>
-                      {event_location}
-                    </p>
+                  <td style=""padding: 22px;"">
+                    
+                    <!-- Date Row -->
+                    <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""margin-bottom: 16px;"">
+                      <tr>
+                        <td width=""36"" valign=""top"" style=""font-size: 20px; line-height: 1;"">🗓️</td>
+                        <td valign=""middle"">
+                          <span style=""font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #818cf8; display: block; margin-bottom: 2px;"">Date & Time</span>
+                          <span style=""font-size: 15px; font-weight: 600; color: #f8fafc; line-height: 1.4;"">{event_date}</span>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- Divider -->
+                    <div style=""height: 1px; background: #262f43; margin-bottom: 16px;""></div>
+
+                    <!-- Location Row -->
+                    <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"">
+                      <tr>
+                        <td width=""36"" valign=""top"" style=""font-size: 20px; line-height: 1;"">📍</td>
+                        <td valign=""middle"">
+                          <span style=""font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #38bdf8; display: block; margin-bottom: 2px;"">Location</span>
+                          <span style=""font-size: 15px; font-weight: 600; color: #f8fafc; line-height: 1.4;"">{event_location}</span>
+                        </td>
+                      </tr>
+                    </table>
+
                   </td>
                 </tr>
               </table>
 
               <!-- Description -->
-              <p style=""margin: 0 0 30px 0; font-size: 16px; line-height: 1.6;"">
+              <p style=""margin: 0 0 36px 0; font-size: 15px; line-height: 1.7; color: #94a3b8;"">
                 {event_description}
               </p>
 
-              <!-- Call to Action Button -->
+              <!-- CTA Button -->
               <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"">
                 <tr>
                   <td align=""center"">
-                    <table border=""0"" cellpadding=""0"" cellspacing=""0"">
+                    <table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""margin: 0 auto;"">
                       <tr>
-                        <td align=""center"" bgcolor=""#5865F2"" style=""border-radius: 8px;"">
-                          <a href=""{discord_invite_link}"" target=""_blank"" style=""display: inline-block; padding: 14px 28px; font-family: inherit; font-size: 16px; color: #ffffff; text-decoration: none; font-weight: 600; border-radius: 8px;"">
-                            Join the Event Discord
+                        <td align=""center"" bgcolor=""#7c3aed"" style=""border-radius: 12px; background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%); box-shadow: 0 10px 25px -5px rgba(124, 58, 237, 0.5);"">
+                          <a href=""{discord_invite_link}"" target=""_blank"" style=""display: inline-block; padding: 16px 36px; font-family: inherit; font-size: 15px; color: #ffffff; text-decoration: none; font-weight: 700; letter-spacing: 0.3px; border-radius: 12px;"">
+                            Join the Event Discord &rarr;
                           </a>
                         </td>
                       </tr>
@@ -94,10 +129,10 @@
 
           <!-- Footer -->
           <tr>
-            <td style=""padding: 20px 40px 30px 40px; border-top: 1px solid #eef1f5; text-align: center;"">
-              <p style=""margin: 0; font-size: 13px; color: #5b6a7b; line-height: 1.5;"">
-                If you have any questions, feel free to reach out to the organizing team.<br>
-                We can't wait to see you there!
+            <td style=""padding: 24px 40px 32px 40px; border-top: 1px solid #1e2638; background-color: #0f1422; text-align: center;"">
+              <p style=""margin: 0; font-size: 13px; color: #64748b; line-height: 1.6;"">
+                Questions? Reach out to the organizing team anytime.<br>
+                See you there!
               </p>
             </td>
           </tr>
