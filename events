@@ -1,146 +1,226 @@
 ﻿id,name,date,volunteer_code,staff_code,created_at,allowed_meals,description,location,discord_invite_link,email_batch_sent,email_whitelist_enabled,email_sending_enabled,email_template_html
-1,CodeML 2026,2026-10-03T04:00:00.000Z,v4532,s2643,2026-09-02T01:09:02.029Z,2,,,discord sample,FALSE,FALSE,FALSE,"<!DOCTYPE html>
-<html lang=""en"">
+1,CodeML 2026,2026-10-03T04:00:00.000Z,v4532,s2643,2026-09-02T01:09:02.029Z,2,,,https://discord.com/invite/YyATgkVHDG,FALSE,FALSE,FALSE,"<!DOCTYPE html>
+<html lang=""fr"">
 <head>
-  <meta charset=""utf-8"">
-  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
-  <title>You're Invited!</title>
-  <style>
-    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
-    img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
-
-    @media screen and (max-width: 600px) {
-      .container {
-        width: 100% !important;
-      }
-      .content-box {
-        padding: 30px 20px !important;
-      }
-      .header-cell {
-        padding: 40px 20px 30px 20px !important;
-      }
-      .detail-card {
-        padding: 16px !important;
-      }
-    }
-  </style>
+  <meta charset=""UTF-8"">
+  <title>Invitation CodeML 2026</title>
 </head>
-<body style=""margin: 0; padding: 0; background-color: #0b0f19; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased;"">
+<body style=""margin: 0; padding: 20px 10px; background-color: #000000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #FFFFFF;"">
 
-  <!-- Outer wrapper table -->
-  <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""background-color: #0b0f19; background-image: radial-gradient(circle at 50% 0%, #1c1c38 0%, #0b0f19 100%);"">
-    <tr>
-      <td align=""center"" style=""padding: 48px 12px;"">
+  <center>
+    <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""max-width: 580px; background-color: #0F1218; border: 1px solid #382820; border-radius: 14px; text-align: left;"">
+      <tr>
+        <td style=""padding: 28px 24px;"">
 
-        <!-- Main Card Container -->
-        <table class=""container"" border=""0"" cellpadding=""0"" cellspacing=""0"" width=""600"" style=""background-color: #121826; border: 1px solid #262e45; border-radius: 20px; box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.7); overflow: hidden;"">
-          
-          <!-- Gradient Glow Accent Bar -->
-          <tr>
-            <td height=""5"" style=""background: linear-gradient(90deg, #ec4899, #8b5cf6, #3b82f6); font-size: 0; line-height: 0;"">&nbsp;</td>
-          </tr>
+          <!-- Top Brand Header -->
+          <div style=""font-size: 22px; font-weight: 800; color: #FFFFFF; margin-bottom: 24px;"">
+            CodeML <span style=""color: #FF7A1A;"">2026</span>
+          </div>
 
-          <!-- Header Section -->
-          <tr>
-            <td class=""header-cell"" align=""center"" style=""padding: 48px 30px 20px 30px; background: linear-gradient(180deg, rgba(30, 27, 75, 0.45) 0%, rgba(18, 24, 38, 0) 100%);"">
-              <span style=""display: inline-block; padding: 6px 14px; background: rgba(139, 92, 246, 0.15); border: 1px solid rgba(139, 92, 246, 0.4); border-radius: 9999px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #c4b5fd; margin-bottom: 16px;"">
-                ✦ Exclusive Access
-              </span>
-              <h1 style=""color: #ffffff; margin: 12px 0 6px 0; font-size: 32px; font-weight: 800; letter-spacing: -0.8px; line-height: 1.2;"">
-                You're Invited! {qr_code}
-              </h1>
-              <p style=""margin: 0; color: #94a3b8; font-size: 15px; font-weight: 400;"">
-                Get ready for an extraordinary experience
-              </p>
-            </td>
-          </tr>
+          <!-- ========================================== -->
+          <!-- SECTION FRANÇAISE (QUÉBEC)                 -->
+          <!-- ========================================== -->
 
-          <!-- Body content -->
-          <tr>
-            <td class=""content-box"" style=""padding: 24px 44px 36px 44px; color: #f1f5f9;"">
-              
-              <p style=""margin: 0 0 16px 0; font-size: 17px; line-height: 1.6; color: #f8fafc;"">
-                Hi <span style=""color: #a78bfa; font-weight: 600;"">{first_name}</span>,
-              </p>
-              
-              <p style=""margin: 0 0 28px 0; font-size: 16px; line-height: 1.6; color: #cbd5e1;"">
-                We are thrilled to welcome you to <strong style=""color: #ffffff; background: linear-gradient(90deg, #f472b6, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"">{event_name}</strong>. Clear your schedule and get ready!
-              </p>
+          <p style=""margin: 0 0 16px; font-size: 16px; color: #FFFFFF;"">
+            Allô {first_name},
+          </p>
 
-              <!-- Event Details Card -->
-              <table class=""detail-card"" border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""background-color: #171e2e; border: 1px solid #2d3748; border-radius: 14px; margin-bottom: 28px;"">
-                <tr>
-                  <td style=""padding: 22px;"">
-                    
-                    <!-- Date Row -->
-                    <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""margin-bottom: 16px;"">
-                      <tr>
-                        <td width=""36"" valign=""top"" style=""font-size: 20px; line-height: 1;"">🗓️</td>
-                        <td valign=""middle"">
-                          <span style=""font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #818cf8; display: block; margin-bottom: 2px;"">Date & Time</span>
-                          <span style=""font-size: 15px; font-weight: 600; color: #f8fafc; line-height: 1.4;"">{event_date}</span>
-                        </td>
-                      </tr>
-                    </table>
+          <p style=""margin: 0 0 16px; font-size: 15px; color: #FFFFFF;"">
+            Tu es officiellement invité(e) à <strong style=""color: #FF7A1A;"">CodeML 2026</strong>! 🎉
+          </p>
 
-                    <!-- Divider -->
-                    <div style=""height: 1px; background: #262f43; margin-bottom: 16px;""></div>
+          <p style=""margin: 0 0 18px; font-size: 14px; color: #A69D95;"">
+            On a vraiment hâte de t'accueillir! Voici tes informations d'enregistrement et les détails pratiques pour l'événement :
+          </p>
 
-                    <!-- Location Row -->
-                    <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"">
-                      <tr>
-                        <td width=""36"" valign=""top"" style=""font-size: 20px; line-height: 1;"">📍</td>
-                        <td valign=""middle"">
-                          <span style=""font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #38bdf8; display: block; margin-bottom: 2px;"">Location</span>
-                          <span style=""font-size: 15px; font-weight: 600; color: #f8fafc; line-height: 1.4;"">{event_location}</span>
-                        </td>
-                      </tr>
-                    </table>
+          <!-- Compact Check-in Box (FR) -->
+          <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""background-color: #1A1E24; border: 1px solid #382820; border-radius: 10px; margin: 18px 0; text-align: center;"">
+            <tr>
+              <td style=""padding: 16px 18px;"">
+                <div style=""font-size: 14px; font-weight: 700; color: #FFFFFF; margin-bottom: 4px;"">
+                  📎 Code QR d'accès en pièce jointe
+                </div>
+                <div style=""font-size: 12px; color: #A69D95; margin-bottom: 12px;"">
+                  Télécharge l'image jointe à ce courriel pour le scan à l'entrée.
+                </div>
 
-                  </td>
-                </tr>
-              </table>
+                <!-- Inline Access Code Badge -->
+                <div style=""display: inline-block; background-color: #0F1218; border: 1px solid #382820; border-radius: 6px; padding: 6px 16px;"">
+                  <span style=""font-size: 11px; text-transform: uppercase; color: #A69D95; letter-spacing: 0.5px; margin-right: 8px;"">Code d'accès :</span>
+                  <span style=""font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 17px; font-weight: 700; letter-spacing: 3px; color: #FF7A1A;"">{code}</span>
+                </div>
+              </td>
+            </tr>
+          </table>
 
-              <!-- Description -->
-              <p style=""margin: 0 0 36px 0; font-size: 15px; line-height: 1.7; color: #94a3b8;"">
-                {event_description}
-              </p>
+          <!-- Discord CTA (FR) -->
+          <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""margin: 22px 0;"">
+            <tr>
+              <td align=""center"">
+                <a href=""{discord_invite_link}"" target=""_blank"" style=""background-color: #FF6B00; color: #FFFFFF; font-size: 15px; font-weight: 700; text-decoration: none; padding: 12px 24px; border-radius: 8px; display: inline-block;"">
+                  🔗 Rejoindre le serveur Discord
+                </a>
+                <div style=""margin-top: 8px; font-size: 12px; color: #A69D95;"">
+                  Lien direct : <a href=""{discord_invite_link}"" style=""color: #FF7A1A; text-decoration: underline;"">{discord_invite_link}</a>
+                </div>
+              </td>
+            </tr>
+          </table>
 
-              <!-- CTA Button -->
-              <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"">
-                <tr>
-                  <td align=""center"">
-                    <table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""margin: 0 auto;"">
-                      <tr>
-                        <td align=""center"" bgcolor=""#7c3aed"" style=""border-radius: 12px; background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%); box-shadow: 0 10px 25px -5px rgba(124, 58, 237, 0.5);"">
-                          <a href=""{discord_invite_link}"" target=""_blank"" style=""display: inline-block; padding: 16px 36px; font-family: inherit; font-size: 15px; color: #ffffff; text-decoration: none; font-weight: 700; letter-spacing: 0.3px; border-radius: 12px;"">
-                            Join the Event Discord &rarr;
-                          </a>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
+          <!-- Logistics (FR) -->
+          <div style=""font-size: 15px; font-weight: 700; color: #FF7A1A; margin: 24px 0 10px;"">
+            📍 Infos pratiques
+          </div>
+          <ul style=""margin: 0 0 20px; padding-left: 20px; font-size: 14px; color: #FFFFFF; line-height: 1.8;"">
+            <li>
+              📅 <strong>Date :</strong> Samedi 3 octobre 2026
+            </li>
+            <li>
+              ⏰ <strong>Accueil &amp; enregistrement :</strong> Dès 9h00 (3e étage)
+            </li>
+            <li>
+              🏛️ <strong>Lieu :</strong> 
+              <a href=""https://maps.app.goo.gl/NVN7mi7PVmumxZjH7"" target=""_blank"" style=""color: #FF7A1A; text-decoration: underline;"">
+                2500 Chem. de Polytechnique, Montréal, QC H3T 0A3
+              </a>
+            </li>
+            <li>
+              🚶 <strong>Accès :</strong> Entrée principale du pavillon Lassonde
+            </li>
+            <li>
+              🚗 <strong>Stationnement :</strong> 
+              <a href=""https://maps.app.goo.gl/y7XdyrosGCvR2cGs9"" target=""_blank"" style=""color: #FF7A1A; text-decoration: underline;"">
+                2900 boul. Édouard-Montpetit, Montréal, QC H3T 1J4
+              </a> (~20 $/jour)
+            </li>
+          </ul>
 
-            </td>
-          </tr>
+          <!-- What to bring (FR) -->
+          <div style=""font-size: 15px; font-weight: 700; color: #FF7A1A; margin: 20px 0 10px;"">
+            🎒 Quoi apporter
+          </div>
+          <ul style=""margin: 0 0 20px; padding-left: 20px; font-size: 14px; color: #FFFFFF; line-height: 1.8;"">
+            <li>🥗 <strong>Repas &amp; collations :</strong> Toute la fin de semaine</li>
+            <li>💻 <strong>Matériel :</strong> Ordinateur portable chargé et chargeur</li>
+            <li>💧 <strong>Essentiel :</strong> Bouteille d'eau réutilisable</li>
+            <li>🛏️ <strong>Optionnel :</strong> Sac de couchage</li>
+          </ul>
 
-          <!-- Footer -->
-          <tr>
-            <td style=""padding: 24px 40px 32px 40px; border-top: 1px solid #1e2638; background-color: #0f1422; text-align: center;"">
-              <p style=""margin: 0; font-size: 13px; color: #64748b; line-height: 1.6;"">
-                Questions? Reach out to the organizing team anytime.<br>
-                See you there!
-              </p>
-            </td>
-          </tr>
-          
-        </table>
-        
-      </td>
-    </tr>
-  </table>
+          <p style=""margin: 0 0 28px; font-size: 14px; color: #FFFFFF;"">
+            À bientôt à CodeML 2026 ! 🚀
+          </p>
+
+          <!-- ========================================== -->
+          <!-- DIVIDER                                    -->
+          <!-- ========================================== -->
+          <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""margin: 28px 0;"">
+            <tr>
+              <td style=""border-bottom: 1px solid #382820; font-size: 0; line-height: 0;"">&nbsp;</td>
+            </tr>
+          </table>
+
+          <!-- ========================================== -->
+          <!-- ENGLISH SECTION                            -->
+          <!-- ========================================== -->
+
+          <p style=""margin: 0 0 16px; font-size: 16px; color: #FFFFFF;"">
+            Hey {first_name},
+          </p>
+
+          <p style=""margin: 0 0 16px; font-size: 15px; color: #FFFFFF;"">
+            You are officially invited to <strong style=""color: #FF7A1A;"">CodeML 2026</strong>! 🎉
+          </p>
+
+          <p style=""margin: 0 0 18px; font-size: 14px; color: #A69D95;"">
+            We're excited to have you with us! Below is your check-in information and key event logistics:
+          </p>
+
+          <!-- Compact Check-in Box (EN) -->
+          <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""background-color: #1A1E24; border: 1px solid #382820; border-radius: 10px; margin: 18px 0; text-align: center;"">
+            <tr>
+              <td style=""padding: 16px 18px;"">
+                <div style=""font-size: 14px; font-weight: 700; color: #FFFFFF; margin-bottom: 4px;"">
+                  📎 Check-In QR Code Attached
+                </div>
+                <div style=""font-size: 12px; color: #A69D95; margin-bottom: 12px;"">
+                  Download or open the attached image for door check-in.
+                </div>
+
+                <!-- Inline Access Code Badge -->
+                <div style=""display: inline-block; background-color: #0F1218; border: 1px solid #382820; border-radius: 6px; padding: 6px 16px;"">
+                  <span style=""font-size: 11px; text-transform: uppercase; color: #A69D95; letter-spacing: 0.5px; margin-right: 8px;"">Access Code:</span>
+                  <span style=""font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 17px; font-weight: 700; letter-spacing: 3px; color: #FF7A1A;"">{code}</span>
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Discord CTA (EN) -->
+          <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""margin: 22px 0;"">
+            <tr>
+              <td align=""center"">
+                <a href=""{discord_invite_link}"" target=""_blank"" style=""background-color: #FF6B00; color: #FFFFFF; font-size: 15px; font-weight: 700; text-decoration: none; padding: 12px 24px; border-radius: 8px; display: inline-block;"">
+                  🔗 Join the Discord Server
+                </a>
+                <div style=""margin-top: 8px; font-size: 12px; color: #A69D95;"">
+                  Direct link: <a href=""{discord_invite_link}"" style=""color: #FF7A1A; text-decoration: underline;"">{discord_invite_link}</a>
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Logistics (EN) -->
+          <div style=""font-size: 15px; font-weight: 700; color: #FF7A1A; margin: 24px 0 10px;"">
+            📍 Event Information
+          </div>
+          <ul style=""margin: 0 0 20px; padding-left: 20px; font-size: 14px; color: #FFFFFF; line-height: 1.8;"">
+            <li>
+              📅 <strong>Date:</strong> Saturday, October 3rd, 2026
+            </li>
+            <li>
+              ⏰ <strong>Registration Starts:</strong> 9:00 a.m. (3rd floor)
+            </li>
+            <li>
+              🏛️ <strong>Location:</strong> 
+              <a href=""https://maps.app.goo.gl/NVN7mi7PVmumxZjH7"" target=""_blank"" style=""color: #FF7A1A; text-decoration: underline;"">
+                2500 Chem. de Polytechnique, Montréal, QC H3T 0A3
+              </a>
+            </li>
+            <li>
+              🚶 <strong>Entrance:</strong> Main entrance of Lassonde Pavilion
+            </li>
+            <li>
+              🚗 <strong>Parking:</strong> 
+              <a href=""https://maps.app.goo.gl/y7XdyrosGCvR2cGs9"" target=""_blank"" style=""color: #FF7A1A; text-decoration: underline;"">
+                2900 Edouard Montpetit Blvd, Montréal, QC H3T 1J4
+              </a> (~$20/day)
+            </li>
+          </ul>
+
+          <!-- What to bring (EN) -->
+          <div style=""font-size: 15px; font-weight: 700; color: #FF7A1A; margin: 20px 0 10px;"">
+            🎒 What to Bring
+          </div>
+          <ul style=""margin: 0 0 20px; padding-left: 20px; font-size: 14px; color: #FFFFFF; line-height: 1.8;"">
+            <li>🥗 <strong>Food &amp; Snacks:</strong> Provided on-site all weekend</li>
+            <li>💻 <strong>Hardware:</strong> Charged laptop &amp; charger</li>
+            <li>💧 <strong>Essentials:</strong> Reusable water bottle</li>
+            <li>🛏️ <strong>Optional:</strong> Sleeping bag</li>
+          </ul>
+
+          <p style=""margin: 0 0 4px; font-size: 14px; color: #FFFFFF;"">
+            See you soon at CodeML 2026! 🚀
+          </p>
+
+        </td>
+      </tr>
+      <tr>
+        <td style=""border-top: 1px solid #382820; padding: 16px 24px; text-align: center; font-size: 11px; color: #A69D95;"">
+          PolyAI Operations &bull; Polytechnique Montréal
+        </td>
+      </tr>
+    </table>
+  </center>
+
 </body>
 </html>"
