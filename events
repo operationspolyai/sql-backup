@@ -1,5 +1,5 @@
-﻿id,name,date,volunteer_code,staff_code,created_at,allowed_meals,description,location,discord_invite_link,email_batch_sent,email_whitelist_enabled,email_sending_enabled,email_template_html
-1,CodeML 2026,2026-10-03T04:00:00.000Z,v4532,s2643,2026-09-02T01:09:02.029Z,2,,,https://discord.com/invite/YyATgkVHDG,FALSE,FALSE,FALSE,"<!DOCTYPE html>
+﻿id,name,date,volunteer_code,staff_code,created_at,allowed_meals,description,location,discord_invite_link,email_whitelist_enabled,email_template_html,discord_server_id,discord_role_participant_id,discord_role_volunteer_id,discord_role_partner_id,discord_role_staff_id,discord_role_organizer_id
+1,CodeML 2026,2026-10-03T04:00:00.000Z,v4532,s2643,2026-09-02T01:09:02.029Z,2,,,https://discord.com/invite/YyATgkVHDG,FALSE,"<!DOCTYPE html>
 <html lang=""fr"">
 <head>
   <meta charset=""UTF-8"">
@@ -223,4 +223,4 @@
   </center>
 
 </body>
-</html>"
+</html>",1551091324718022766,1551639240662847559,1551091324718022767,1551091324718022768,1551091324718022770,1551936577545052221
