@@ -1,4 +1,4 @@
-﻿id,name,date,volunteer_code,staff_code,created_at,allowed_meals,description,location,discord_invite_link,email_whitelist_enabled,email_template_html,discord_server_id,discord_role_participant_id,discord_role_volunteer_id,discord_role_partner_id,discord_role_staff_id,discord_role_organizer_id
+﻿id,name,date,volunteer_code,staff_code,created_at,allowed_meals,description,location,discord_invite_link,email_whitelist_enabled,email_template_html,discord_server_id,discord_role_participant_id,discord_role_volunteer_id,discord_role_partner_id,discord_role_staff_id,discord_role_organizer_id,discord_reminder_template_html,discord_channel_id
 1,CodeML 2026,2026-10-03T04:00:00.000Z,v4532,s2643,2026-09-02T01:09:02.029Z,2,,,https://discord.com/invite/YyATgkVHDG,FALSE,"<!DOCTYPE html>
 <html lang=""fr"">
 <head>
@@ -223,4 +223,134 @@
   </center>
 
 </body>
-</html>",1551091324718022766,1551639240662847559,1551091324718022767,1551091324718022768,1551091324718022770,1551936577545052221
+</html>",1551091324718022766,1551639240662847559,1552413087439786004,1551091324718022768,1551091324718022767,1552488764612411412,"<!DOCTYPE html>
+<html lang=""fr"">
+<head>
+  <meta charset=""UTF-8"">
+  <title>Rappel : Rejoins le Discord de CodeML 2026 !</title>
+</head>
+<body style=""margin: 0; padding: 20px 10px; background-color: #000000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #FFFFFF;"">
+
+  <center>
+    <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""max-width: 580px; background-color: #0F1218; border: 1px solid #382820; border-radius: 14px; text-align: left;"">
+      <tr>
+        <td style=""padding: 28px 24px;"">
+
+          <!-- Top Brand Header -->
+          <div style=""font-size: 22px; font-weight: 800; color: #FFFFFF; margin-bottom: 24px;"">
+            CodeML <span style=""color: #FF7A1A;"">2026</span>
+          </div>
+
+          <!-- ========================================== -->
+          <!-- SECTION FRANÇAISE (QUÉBEC)                 -->
+          <!-- ========================================== -->
+
+          <p style=""margin: 0 0 16px; font-size: 16px; color: #FFFFFF;"">
+            Allô {first_name},
+          </p>
+
+          <p style=""margin: 0 0 16px; font-size: 15px; color: #FFFFFF;"">
+            Un petit rappel amical avant <strong style=""color: #FF7A1A;"">CodeML 2026</strong> qui arrive ce <strong>samedi 3 octobre</strong>! 🚀
+          </p>
+
+          <p style=""margin: 0 0 18px; font-size: 14px; color: #A69D95;"">
+            On a remarqué que tu n'as pas encore rejoint le serveur Discord officiel de l'événement. C'est la place pour :
+          </p>
+
+          <ul style=""margin: 0 0 20px; padding-left: 20px; font-size: 14px; color: #FFFFFF; line-height: 1.8;"">
+            <li>👥 Former ton équipe de 4 ou trouver tes coéquipiers manquants</li>
+            <li>📢 Recevoir toutes les annonces et mises à jour en direct</li>
+            <li>💬 Jaser et faire connaissance avec les autres participant(e)s</li>
+            <li>😂 Partager tes meilleurs memes dans le salon <code>#memes</code></li>
+          </ul>
+
+          <!-- Discord CTA (FR) -->
+          <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""margin: 24px 0;"">
+            <tr>
+              <td align=""center"">
+                <a href=""{discord_invite_link}"" target=""_blank"" style=""background-color: #FF6B00; color: #FFFFFF; font-size: 15px; font-weight: 700; text-decoration: none; padding: 13px 28px; border-radius: 8px; display: inline-block;"">
+                  🔗 Rejoindre le serveur Discord
+                </a>
+                <div style=""margin-top: 8px; font-size: 12px; color: #A69D95;"">
+                  Lien direct : <a href=""{discord_invite_link}"" style=""color: #FF7A1A; text-decoration: underline;"">{discord_invite_link}</a>
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Access Code Reminder Note -->
+          <p style=""margin: 0 0 24px; font-size: 13px; color: #A69D95;"">
+            <em>Pour rappel, ton code d'accès pour l'accueil est : <strong style=""color: #FF7A1A; font-family: ui-monospace, Menlo, Consolas, monospace; letter-spacing: 2px;"">{code}</strong> (ton code QR se trouve en pièce jointe de ton courriel d'invitation).</em>
+          </p>
+
+          <p style=""margin: 0 0 28px; font-size: 14px; color: #FFFFFF;"">
+            On se voit très bientôt! 🙌
+          </p>
+
+          <!-- ========================================== -->
+          <!-- DIVIDER                                    -->
+          <!-- ========================================== -->
+          <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""margin: 28px 0;"">
+            <tr>
+              <td style=""border-bottom: 1px solid #382820; font-size: 0; line-height: 0;"">&nbsp;</td>
+            </tr>
+          </table>
+
+          <!-- ========================================== -->
+          <!-- ENGLISH SECTION                            -->
+          <!-- ========================================== -->
+
+          <p style=""margin: 0 0 16px; font-size: 16px; color: #FFFFFF;"">
+            Hey {first_name},
+          </p>
+
+          <p style=""margin: 0 0 16px; font-size: 15px; color: #FFFFFF;"">
+            Just a quick friendly reminder ahead of <strong style=""color: #FF7A1A;"">CodeML 2026</strong> coming up this <strong>Saturday, October 3rd</strong>! 🚀
+          </p>
+
+          <p style=""margin: 0 0 18px; font-size: 14px; color: #A69D95;"">
+            We noticed you haven't joined the official Discord server yet. It's the place to:
+          </p>
+
+          <ul style=""margin: 0 0 20px; padding-left: 20px; font-size: 14px; color: #FFFFFF; line-height: 1.8;"">
+            <li>👥 Form your team of 4 or find your missing teammates</li>
+            <li>📢 Catch all real-time announcements and schedule drops</li>
+            <li>💬 Socialize and connect with fellow hackers</li>
+            <li>😂 Drop your best memes in the <code>#memes</code> channel</li>
+          </ul>
+
+          <!-- Discord CTA (EN) -->
+          <table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""margin: 24px 0;"">
+            <tr>
+              <td align=""center"">
+                <a href=""{discord_invite_link}"" target=""_blank"" style=""background-color: #FF6B00; color: #FFFFFF; font-size: 15px; font-weight: 700; text-decoration: none; padding: 13px 28px; border-radius: 8px; display: inline-block;"">
+                  🔗 Join the Discord Server
+                </a>
+                <div style=""margin-top: 8px; font-size: 12px; color: #A69D95;"">
+                  Direct link: <a href=""{discord_invite_link}"" style=""color: #FF7A1A; text-decoration: underline;"">{discord_invite_link}</a>
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Access Code Reminder Note -->
+          <p style=""margin: 0 0 24px; font-size: 13px; color: #A69D95;"">
+            <em>As a reminder, your check-in access code is: <strong style=""color: #FF7A1A; font-family: ui-monospace, Menlo, Consolas, monospace; letter-spacing: 2px;"">{code}</strong> (your check-in QR code was attached to your original invitation).</em>
+          </p>
+
+          <p style=""margin: 0 0 4px; font-size: 14px; color: #FFFFFF;"">
+            See you very soon! 🙌
+          </p>
+
+        </td>
+      </tr>
+      <tr>
+        <td style=""border-top: 1px solid #382820; padding: 16px 24px; text-align: center; font-size: 11px; color: #A69D95;"">
+          PolyAI &bull; Polytechnique Montréal
+        </td>
+      </tr>
+    </table>
+  </center>
+
+</body>
+</html>",1551091325577732177
